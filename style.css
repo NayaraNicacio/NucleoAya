@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+body{
+  background-color: #6c6a6a;
+
+}
+
+/* Inicio Nav */
+
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: #3f3d3d;
+  display: flex;
+  
+  
+}
+ul{
+  position: relative;
+  right: 0;
+  top: 0%;
+  display: flex;
+  margin: auto;
+  
+  
+}
+li{
+     
+      list-style: none;
+      font: 9px Arial, sans-serif;
+      margin: auto; 
+      padding: 25px;
+      justify-content: space-around;
+   }
+
+li > a:hover {
+  background-color: #bab7b9;
+  border: none;
+  list-style: none;
+  font: Arial, sans-serif;
+  margin: auto; 
+  padding: 15px;
+  justify-content: space-around;
+  
+}
+.doe{
+  margin: 20px 0 15px 30px;
+  padding: 15px;
+  text-align: center;
+  width: 260px;
+  height: 55px;
+  border: none;
+  background-color: #7568d8;
+}
+.doe:hover{
+  background-color: #ed1eac;
+  padding: 15px;
+}
+/* Inicio Main*/
+
+/*.card {
+  background-color: #fbf9f8;
+  max-width: 350px;
+  margin: 70px 55px;
+  float: right;
+}
+*/
+
+/* .title {
+  color: #3f3d3d;
+  font-size: 18px;
+} */
+.estamosemconstrucao{
+  color: #fafcfc;
+  margin: 303px  300px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 45px;
+  float:right;
+}
+.instagram img{
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  font-size: 10px;
+}
+/* p{
+
+
+  padding: 5px 10px;
+} */
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(241, 236, 236);
+}
+
+/* Inicio Footer */
+
+footer{
+  color: aliceblue;
+  background-color: #3f3d3d;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 180px;
+  font: 9px Arial, sans-serif;
+  }
+  .logo-aya{
+    width:150px;
+    
+   }
+.texto-footer{
+  display: flex;
+  font-size: 20px;
+  margin: 15px;
+  }
+ .copy{
+  background-color: #757474;
+  display: flex;
+  bottom: 0;
+  position:fixed;
+  width: 100%;
+  height: 45px;
+  padding: 5px;
+  font: 15px Arial, sans-serif;
+}
+.copy>p{
+ color: #f8f6f7;
+ margin: auto;
+  
+}
+  footer figure{
+    display: flex;
+    align-items: center;
+  }
+footer>div>p{
+  margin: 55px 10px 0 90px;
+
+}
+footer button{
+border: none;
+background-color: #3f3d3d;
+width:250px;
+height: 85px;
+display:inline-flex;
+margin: 36px auto;
+
+
+}
+
+footer .logo-instagram{
+  width:60px;
+  padding: 10px 0 15px 15px;
+  display: block;
+ 
+}
+
+footer .nome-insta{
+  width:150px;
+  padding: 10px 0 0 0px;
+  display: block;
+    }
